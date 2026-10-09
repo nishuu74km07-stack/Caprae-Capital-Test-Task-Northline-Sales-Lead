@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #f4f7f8;
+  --color-canvas-2: #e8eef0;
+  --color-surface: #ffffff;
+  --color-ink: #0b1f24;
+  --color-muted: #5b6f76;
+  --color-line: #d5e0e4;
+  --color-teal: #0e7c86;
+  --color-teal-ink: #085861;
+  --color-teal-soft: #d8f1f3;
+  --color-mint: #1f9a7a;
+  --color-good: #157a4b;
+  --color-warn: #9a6418;
+  --color-bad: #b42318;
+  --color-good-bg: #e4f5eb;
+  --color-warn-bg: #fff3dd;
+  --color-bad-bg: #fde8e6;
+  --color-muted-bg: #eef3f5;
+  --color-sidebar: #06262c;
+  --color-sidebar-mid: #0a3740;
+  --color-sidebar-text: #eef7f8;
+  --color-sidebar-dim: #8fadb4;
+  --font-display: var(--font-northline-display), Georgia, serif;
+  --font-sans: var(--font-northline-sans), "Segoe UI", sans-serif;
+  --shadow-card: 0 10px 30px rgba(6, 38, 44, 0.08);
+  --shadow-lift: 0 24px 60px rgba(6, 38, 44, 0.12);
+  --animate-rise: riseIn 420ms ease both;
+  --animate-bar: growBar 780ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-pulse-dot: pulseSoft 2.4s ease-in-out infinite;
+  --animate-spin-slow: spin 700ms linear infinite;
+  --animate-drawer: slideIn 320ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes riseIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes growBar {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+@keyframes pulseSoft {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(14, 124, 134, 0.28); }
+  50% { box-shadow: 0 0 0 8px rgba(14, 124, 134, 0); }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(24px); opacity: 0.4; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@layer base {
+  html,
+  body {
+    @apply m-0 min-h-full;
+  }
+
+  body {
+    @apply bg-canvas text-ink antialiased;
+    background-image:
+      radial-gradient(1200px 520px at 88% -10%, rgba(14, 124, 134, 0.16), transparent 55%),
+      radial-gradient(900px 420px at -8% 18%, rgba(31, 154, 122, 0.1), transparent 50%),
+      linear-gradient(180deg, #eef5f6 0%, #f4f7f8 38%, #eef3f4 100%);
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply m-0 font-semibold tracking-tight;
+    font-family: var(--font-display);
+  }
+
+  p {
+    @apply m-0;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    @apply font-[inherit] text-inherit;
+  }
+
+  ::selection {
+    background: #c9ecef;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

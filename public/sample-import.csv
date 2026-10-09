@@ -1,0 +1,4 @@
+listed_name,source,website,domain,industry,city,state,employees,founded,owner_name,owner_title,public_phone,description,signal,is_franchise,email,direct_phone,linkedin,owner_tenure
+Sabine Electrical,Google Maps,https://sabineelectrical.example,sabineelectrical.example,Electrical,Beaumont,TX,19,2005,Nora Blake,Owner,4095550173,Commercial electrical contractor along the Texas coast.,What stood out is the service agreements with plant managers in Jefferson County.,false,nora.blake@sabineelectrical.example,4095550176,https://www.linkedin.com/in/nora-blake-demo,14
+Bramble Comfort Heating & Air,State Registry,,bramblecomfort.example,HVAC,Austin,TX,22,2004,Dana Ruiz,Owner,5125550142,Duplicate listing that should fold into Bramble Comfort.,,false,,,,
+,Google Maps,,,,,,,,,,,,,false,,,,
