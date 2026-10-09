@@ -39,11 +39,7 @@ The bigger shift is post-close. Caprae talks about control, not only capital. Va
 
 **What is your current working status in the US?**
 
-I am not currently in the US. I am based in India and can work Caprae’s EST training schedule and relocate or work as Caprae directs for the role.
-
-**Are you willing and able to work a minimum of 40 hours/week?**
-
-Yes. I can work 40+ hours per week full time.
+I am currently based in India and am looking for a full-time remote opportunity. I am comfortable working with the team's EST schedule during the initial training period and can commit to 40+ hours per week. I would prefer to continue working remotely from India.
 
 **Why Caprae Capital?**
 
@@ -54,30 +50,13 @@ Caprae builds the sourcing tools it runs. I want to ship full-stack product on t
 Current: ₹18,00,000 INR / year.  
 Expected: ₹24,00,000 INR / year base. Open to Caprae’s band for the Full Stack role and location.
 
----
-
-## Employment expectations
-
-I confirm:
-
-- I understand the 3-month probationary period.
-- I can work 9:00 AM–6:00 PM Eastern with a 1-hour lunch during the ~2–3 month training program.
-- I can cover light off-hours needs (about under ~2 hours/week if any) for customer emergencies or time-sensitive work. After training, flexible hours by local timezone are fine.
-
-**Is this ok with you?**
-
-Yes. All of the above is ok with me.
-
----
-
 ## Reapplicants
 
 N/A — this is my first Caprae application.
 
----
-
 ## Links
 
-- GitHub: (new repo URL — add after you push)
+- GitHub: https://github.com/nishuu74km07-stack/Caprae-Capital-Test-Task-Northline-Sales-Lead.git
 - Video: https://www.loom.com/share/192e10e91a774809a7b5c8e936eb8a9f
 - Resume: https://docs.google.com/document/d/1Y0FapK4HNAG3fljg2xgvdiVxkhgdqLtWSCS03nsGnZ4/edit?usp=sharing
+Demo Url - https://caprae-capital-test-task-northline-kappa.vercel.app/
